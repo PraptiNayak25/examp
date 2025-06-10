@@ -19,10 +19,14 @@ public class Array{
             }
 
         }
+
+        double average=(double)sum/arr.length;
         
 
         System.out.println("Sum :"+sum);
         System.out.println("MAx :"+max);
         System.out.println("Min :"+min);
+         System.out.println("Average :"+average);
+
     }
 }
